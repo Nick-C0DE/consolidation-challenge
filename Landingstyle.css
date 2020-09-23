@@ -5,12 +5,11 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  
   background-image: url("image/Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  
   
 }
 
@@ -19,27 +18,9 @@ body {
   
   
   
-main {
-  display: flex;
-  border: 2px solid red;
-  
-  margin: 0;
-  padding: 5%;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-}
-main p {
-  text-justify: auto;
-}
 
-footer {
-  margin: 0;
-  padding: 5%;
-  background: orangered;
-}
+
+
 
 /*animationn*/
 .morph div {
@@ -49,8 +30,8 @@ footer {
   
 }
 .morph img {
-  width: 100%;
-  height: 150px;
+  width: 100px;
+  height: 40px;
   -webkit-filter: grayscale(0) blur(0px);
   filter: grayscale(0) blur(0px);
   -webkit-transition: all 0.5s ease;
@@ -73,6 +54,12 @@ footer {
   margin: 0 auto;
   width: 80%;
   display: inline-block;
-  padding-left: 50%;
+  padding-left: 30%;
+  padding-top: 20px;
 }
 
+.nav-bar{
+  background-color: #323232;
+  width: 1412px;
+  height: 80px;
+}
