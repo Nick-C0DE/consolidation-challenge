@@ -1,0 +1,40 @@
+ body{
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(27, 26, 26) ;
+     margin-left : 20%;
+     background-color: #f7bf13;
+}
+ 
+ .photo img {
+    display: inline-block;     
+    border-radius: 100px;
+    width: 33%;
+    height: 33%;
+    border : 2px solid, rgb(27, 26, 26);
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+ .photo h1 {
+    display: inline-block;
+    font-family:  'Abril Fatface', cursive;
+    text-align: right;
+
+ }
+
+ .photo p {
+     display: inline-block;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: left;
+     margin-top: 15%;
+
+ }
+
+
+
+
+ 
+ 
+ 
+ 
+ 
