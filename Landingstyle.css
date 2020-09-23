@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  border: 2px solid blue;
+  margin: 0;
+  padding: 5%;
+}
+main {
+  display: flex;
+  border: 2px solid red;
+  background-image: url(image/155954235541681.png);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+main p {
+  text-justify: auto;
+}
+
+footer {
+  margin: 0;
+  padding: 5%;
+  background: orangered;
+}
+
+/*animationn*/
+.morph img {
+  width: 200px;
+  height: 150px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.morph :hover img {
+  width: 150px; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%; /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+.morph div a {
+  display: inline;
+}
+/*le a ne veut pas aligner horizontal*/
