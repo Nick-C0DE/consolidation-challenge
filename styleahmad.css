@@ -67,7 +67,9 @@
 }
 
 .bio h2{
-    color: white;
+    color:black;
+    width: 250px;
+    background-color:yellow ;
 }
 
 .container-works{
@@ -79,10 +81,35 @@
      margin-right: 100px;
  }
 
+ .impact h2{
+    color:black;
+    width: 400px;
+    background-color:yellow ;
+ }
+
+.perso .blockquote p {
+    background-color: tomato;
+}
+
  .tableau h3{
-     margin-left: 50px;
+     
+     background-color: yellow;
+     text-align: center;
  }
  
+ .season-one{
+     padding-right: 55px;
+ }
  
- 
- 
+ .Saison-deux{
+    padding-right: 55px;
+}
+
+.last-season{
+    padding-right: 55px;
+}
+
+.media{
+    padding-top: 50px; 
+    
+}
