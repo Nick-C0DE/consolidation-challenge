@@ -1,99 +1,86 @@
- body{
-     font-family: 'Times New Roman', Times, serif;
-     color: rgb(27, 26, 26) ;
-     margin-left : 17%;
-     background-color: #f7bf13;
-   
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(27, 26, 26);
+  margin-left: 17%;
+  background-color: #f7bf13;
 }
 
- 
-.photo{
-    
-    display: flex;
-     
+.photo {
+  display: flex;
 }
 
- .photo img {
-    display: inline-block;     
-    border-radius: 200px;
-    width: 33%;
-    height: 33%;
-    border : 2px solid, rgb(27, 26, 26);
-    margin-right: 10%;
-    margin-top: 5%;
+.photo img {
+  display: inline-block;
+  border-radius: 200px;
+  width: 33%;
+  height: 33%;
+  border: 2px solid, rgb(27, 26, 26);
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
+.photo h1 {
+  font-family: "Abril Fatface", cursive;
 
-
- .photo h1 {
-     font-family:  'Abril Fatface', cursive;
-     display: inline;
-     font-size: 85px;   
-     margin-top: 100px;
+  font-size: 85px;
+  margin-top: 100px;
 }
-    
+
 .photo h2 {
-    font-family:  'Abril Fatface', cursive;
-    margin-top: 1px;
-    font-size: 20px ;
-    letter-spacing: 3.5px;
-    color: white;
-    
-}    
-
-
- .photo .fortext{
-     display: inline;
-     
-     padding-top:130px ;
- }
-
- .photo p {
-     display: inline-block;
-     font-family: 'Times New Roman', Times, serif;
-     text-align: left;
-     margin-top: 15%;
-
- }
- 
-.impact{
-    margin-top: 60px;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 1px;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: white;
 }
 
+.photo .fortext {
+  display: inline;
 
- .bio {
-    
-    line-height: 25px;
+  padding-top: 130px;
 }
 
-.bio h2{
-    color: white;
+.photo p {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  margin-top: 15%;
 }
 
-.container-works{
-    margin-top: 70px;
+.impact {
+  margin-top: 60px;
 }
 
- .tableau{
-     display:flex;
-     margin-right: 100px;
- }
-
- .tableau h3{
-     
-     background-color: yellow;
-     text-align: center;
- }
- 
- .season-one{
-     padding-right: 55px;
- }
- 
- .Saison-deux{
-    padding-right: 55px;
+.bio {
+  line-height: 25px;
 }
 
-.last-season{
-    padding-right: 55px;
+.bio h2 {
+  color: white;
 }
 
+.container-works {
+  margin-top: 70px;
+}
+
+.tableau {
+  display: flex;
+  margin-right: 100px;
+}
+
+.tableau h3 {
+  background-color: yellow;
+  text-align: center;
+}
+
+.season-one {
+  padding-right: 55px;
+}
+
+.Saison-deux {
+  padding-right: 55px;
+}
+
+.last-season {
+  padding-right: 55px;
+}
