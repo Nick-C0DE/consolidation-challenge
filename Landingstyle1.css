@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  
+  background-image: url("image/Background.jpg");
+  background-repeat: no-repeat;
+  
+  
+  
+}
+
+/*animationn*/
+.morph div {
+  display: inline-block;
+  margin: 0%;
+  padding: 0;
+  
+}
+.morph img {
+  width: 40px;
+  padding-left:10px ;
+  height: 40px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.morph :hover img {
+  width: 100%; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%; /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+.morph div a {
+  display: inline-block;
+  
+}
+/*le a ne veut pas aligner horizontal*/
+
+.morph{
+  margin: 0 auto;
+  width: 80%;
+  display: inline-block;
+  padding-left: 450px;
+  padding-top: 20px;
+}
+
+.nav-bar{
+  background-color: #323232;
+  width: 1200px;
+  height: 80px;
+}
+  
+
+  
+  
+  
+
+
+
+
