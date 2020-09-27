@@ -1,33 +1,27 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:  'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 body {
-  
   background-image: url("image/Background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
-  
-  
-  
 }
 
 /*animationn*/
 .morph div {
   display: inline-block;
-  margin: 0%;
+  margin: 0;
   padding: 0;
-  margin: 5%;
+  margin: 7%;
   margin-top: 0;
-  
 }
 .morph img {
   width: 40px;
-  padding-left:10px ;
   height: 40px;
   -webkit-filter: grayscale(0) blur(0px);
   filter: grayscale(0) blur(0px);
@@ -35,19 +29,22 @@ body {
   transition: all 0.5s ease;
 }
 .morph :hover img {
-  width: 100%; /* on affiche l'image au carré */
-  height: 150px;
+  width: 50%; /* on affiche l'image au carré */
+  height: 80%;
   border-radius: 50%; /* on arrondit l'image */
   -webkit-transform: rotate(360deg); /* rotation de l'image */
   transform: rotate(360deg);
+  z-index: 99;
 }
 .morph div a {
   display: inline-block;
-  
+  position: fixed;
+  margin: 10px;
+  z-index: 0;
 }
 /*le a ne veut pas aligner horizontal*/
 
-.morph{
+.morph {
   margin: 0 auto;
   width: 80%;
   display: inline-block;
@@ -55,33 +52,24 @@ body {
   padding-top: 20px;
 }
 
-.nav-bar{
+.nav-bar {
   background-color: #323232;
   width: 100%;
   height: 80px;
   display: flex;
-
 }
-  div p{ 
-    width: 15%;
-    position: absolute;
-    top: 55%;
-    left: 80%;
-    color: blanchedalmond;
-    font-weight: bolder;
-    text-shadow: rgb(29, 28, 28);
-  }
-  h1{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    font-size: 50px;
-  }
-
-
-  
-  
-
-
-
-
+div p {
+  width: 15%;
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  color: blanchedalmond;
+  font-weight: bolder;
+  text-shadow: rgb(29, 28, 28);
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size: 50px;
+}
