@@ -4,4 +4,4 @@ Ce site est une présentation courte et concise de celles et ceux qui nous ont l
 
 
 ##### Soyez Inspiré(e)s !
-[##### Soyez Inspiré(e)s !](https://nick-c0de.github.io/consolidation-challenge/navbar.html)
+[Curieux clic ICI =>](https://nick-c0de.github.io/consolidation-challenge/navbar.html)
