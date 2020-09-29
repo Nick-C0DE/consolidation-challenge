@@ -58,17 +58,17 @@ body {
   height: 80px;
   display: flex;
 }
-/* p {
+p {
   width: 15%;
   position: absolute;
   top: 55%;
   left: 80%;
   color: blanchedalmond;
   font-weight: bolder;
-} */
-/* h1 {
+}
+h1 {
   position: absolute;
   top: 50%;
   left: 25%;
   font-size: 50px;
-} */
+}
